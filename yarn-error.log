@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\HP PC\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\sbt\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs\;G:\scala\bin;%HIVE_BIN%;%DERBY_HOME%\bin;C:\HashiCorp\Vagrant\bin;C:\Users\HP PC\AppData\Local\Microsoft\WindowsApps;C:\Users\HP PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Java\jre1.8.0_191\bin;G:\hadoopEnv\hadoop-3.2.1\bin;C:\Users\HP PC\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.1\bin;;C:\spark\bin;G:\flutter\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\HP PC\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  12.18.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\HP PC\AppData\Local\Yarn\Cache\v2\npm-spdx-license-ids-3.0.6-c80757383c28abf7296744998cbc106ae8b854ce\README.md' -> 'C:\Users\HP PC\Documents\ReactJs\React Course\expensify-app\node_modules\spdx-license-ids\README.md'
+
+npm manifest: 
+  {
+    "name": "indecision-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "serve": "live-server public",
+      "build": "webpack",
+      "dev-server": "webpack-dev-server"
+    },
+    "dependencies": {
+      "css-loader": "^5.0.1",
+      "live-server": "^1.2.1",
+      "node-sass": "^5.0.0",
+      "normalize.css": "^8.0.1",
+      "react": "16.0.0",
+      "react-dom": "16.0.0",
+      "react-modal": "^3.11.2",
+      "sass-loader": "^10.1.0",
+      "style-loader": "^2.0.0",
+      "webpack": "^5.6.0",
+      "webpack-cli": "3.3.10",
+      "webpack-dev-server": "^3.11.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.12.1",
+      "@babel/core": "^7.12.3",
+      "@babel/plugin-proposal-class-properties": "^7.12.1",
+      "@babel/preset-env": "^7.12.1",
+      "@babel/preset-react": "^7.12.5",
+      "babel-loader": "^8.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
