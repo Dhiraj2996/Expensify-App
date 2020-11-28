@@ -7,11 +7,11 @@ module.exports = (env) => {
   const CSSExtract = new ExtractTextPlugin("styles.css");
   return {
     entry: "./src/app.js",
-    // entry: "./src/playground/redux-expensify.js",
     output: {
       path: path.join(__dirname, "public"),
       filename: "bundle.js",
     },
+    mode: isProduction ? "production" : "development",
     module: {
       rules: [
         {
@@ -21,7 +21,7 @@ module.exports = (env) => {
         },
         {
           test: /\.s?css$/,
-          //use: ["style-loader", "css-loader", "sass-loader"],
+          // use: ["style-loader", "css-loader", "sass-loader"],
           use: CSSExtract.extract(["css-loader", "sass-loader"]),
         },
       ],
