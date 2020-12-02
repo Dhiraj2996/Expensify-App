@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "react-dates/initialize";
+import "react-dates/lib/css/_datepicker.css";
+
 import { Provider } from "react-redux";
 import AppRouter from "./routers/AppRouter";
 import configureStore from "./store/ConfigureStore";
-import getVisibleExpense from "./selectors/Expenses";
-import { addExpense } from "./actions/ExpensesActions";
-import { setTextFilter } from "./actions/FilterActions";
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 
