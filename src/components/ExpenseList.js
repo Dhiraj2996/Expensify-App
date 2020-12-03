@@ -5,8 +5,8 @@ import selectExpenses from "../selectors/Expenses";
 
 const ExpenseList = (props) => (
   <div>
-    <h1>ExpenseList {props.expenses.length}</h1>
-    {props.expenses.length && (
+    <h1>ExpenseList</h1>
+    {props.expenses.length > 0 && (
       <ol>
         {props.expenses.map((expense) => (
           <li key={expense.id}>
@@ -15,6 +15,7 @@ const ExpenseList = (props) => (
         ))}
       </ol>
     )}
+    {!props.expenses.length && <p>No Expenses</p>}
   </div>
 );
 
